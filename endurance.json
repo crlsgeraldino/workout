@@ -1,58 +1,58 @@
 {
-  "goal": "Fat Loss",
-  "description": "High-intensity, moderate-weight training designed to burn fat and build endurance.",
+  "goal": "Endurance",
+  "description": "Cardio-based workouts designed to improve stamina, breathing, and overall conditioning.",
   "days": [
     {
       "day": "Monday",
-      "focus": "Upper (Push)",
+      "focus": "Cardio + Core",
       "exercises": [
         {
-          "name": "Dynamic Warm-up",
+          "name": "Jog/Run Intervals",
           "sets": 1,
-          "reps": "5 min",
+          "reps": "25 min",
           "weight": 0,
-          "notes": "Jumping jacks, arm circles, push-up planks"
+          "notes": "Alternate 2-min jog / 1-min sprint"
         },
         {
-          "name": "Push-ups",
+          "name": "Mountain Climbers",
           "sets": 3,
-          "reps": 15,
+          "reps": 20,
           "weight": 0,
-          "notes": "Bodyweight only, keep form tight"
+          "notes": "Explosive and controlled"
         },
         {
-          "name": "Dumbbell Shoulder Press",
+          "name": "Plank Shoulder Taps",
           "sets": 3,
-          "reps": 12,
-          "weight": 25,
-          "notes": "Slow and controlled movement"
+          "reps": 20,
+          "weight": 0,
+          "notes": "Keep hips stable"
         }
       ]
     },
     {
       "day": "Tuesday",
-      "focus": "Lower (Legs)",
+      "focus": "Full Body Circuit",
       "exercises": [
         {
-          "name": "Bodyweight Squats",
-          "sets": 3,
-          "reps": 20,
-          "weight": 0,
-          "notes": "Keep chest up, knees out"
-        },
-        {
-          "name": "Lunges",
+          "name": "Burpees",
           "sets": 3,
           "reps": 12,
-          "weight": 15,
-          "notes": "Alternate legs"
+          "weight": 0,
+          "notes": "Explosive movement, full jump"
         },
         {
-          "name": "Plank",
+          "name": "Kettlebell Swings",
           "sets": 3,
-          "reps": "45 sec hold",
+          "reps": 15,
+          "weight": 35,
+          "notes": "Drive with hips"
+        },
+        {
+          "name": "Jump Rope",
+          "sets": 3,
+          "reps": "2 min",
           "weight": 0,
-          "notes": "Core tight, no sagging"
+          "notes": "Steady rhythm, light on feet"
         }
       ]
     }
