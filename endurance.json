@@ -1,1 +1,60 @@
-
+{
+  "goal": "Fat Loss",
+  "description": "High-intensity, moderate-weight training designed to burn fat and build endurance.",
+  "days": [
+    {
+      "day": "Monday",
+      "focus": "Upper (Push)",
+      "exercises": [
+        {
+          "name": "Dynamic Warm-up",
+          "sets": 1,
+          "reps": "5 min",
+          "weight": 0,
+          "notes": "Jumping jacks, arm circles, push-up planks"
+        },
+        {
+          "name": "Push-ups",
+          "sets": 3,
+          "reps": 15,
+          "weight": 0,
+          "notes": "Bodyweight only, keep form tight"
+        },
+        {
+          "name": "Dumbbell Shoulder Press",
+          "sets": 3,
+          "reps": 12,
+          "weight": 25,
+          "notes": "Slow and controlled movement"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "focus": "Lower (Legs)",
+      "exercises": [
+        {
+          "name": "Bodyweight Squats",
+          "sets": 3,
+          "reps": 20,
+          "weight": 0,
+          "notes": "Keep chest up, knees out"
+        },
+        {
+          "name": "Lunges",
+          "sets": 3,
+          "reps": 12,
+          "weight": 15,
+          "notes": "Alternate legs"
+        },
+        {
+          "name": "Plank",
+          "sets": 3,
+          "reps": "45 sec hold",
+          "weight": 0,
+          "notes": "Core tight, no sagging"
+        }
+      ]
+    }
+  ]
+}
