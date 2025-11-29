@@ -1,0 +1,584 @@
+{
+  "weight_rules": {
+    "male": {
+      "18-35": { "start": 5, "increase_per_week": 5, "max": 50 },
+      "36-50": { "start": 5, "increase_per_week": 2.5, "max": 35 },
+      "50+":   { "start": 2.5, "increase_per_week": 2.5, "max": 25 }
+    },
+    "female": {
+      "18-35": { "start": 2.5, "increase_per_week": 2.5, "max": 15 },
+      "36-50": { "start": 2.5, "increase_per_week": 2.5, "max": 12.5 },
+      "50+":   { "start": 1, "increase_per_week": 1, "max": 10 }
+    }
+  },
+
+  "male": {
+    "18-35": {
+      "twelve_week_phases": [
+        {
+          "phase": 1,
+          "days": [
+            { "name": "Monday", "description": "Upper Body Conditioning", "template": [
+              { "exercise": "Push-ups", "sets": 4, "reps": 12 },
+              { "exercise": "Dumbbell Bench Press", "sets": 4, "reps": 10 },
+              { "exercise": "Dumbbell Row", "sets": 4, "reps": 12 },
+              { "exercise": "Shoulder Press", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Tuesday", "description": "Lower Body Conditioning", "template": [
+              { "exercise": "Bodyweight Squats", "sets": 4, "reps": 15 },
+              { "exercise": "Dumbbell Lunges", "sets": 4, "reps": 12 },
+              { "exercise": "Leg Press", "sets": 3, "reps": 12 },
+              { "exercise": "Calf Raise", "sets": 3, "reps": 15 }
+            ]},
+            { "name": "Wednesday", "description": "Back + Core", "template": [
+              { "exercise": "Lat Pulldown", "sets": 4, "reps": 12 },
+              { "exercise": "Seated Row", "sets": 4, "reps": 12 },
+              { "exercise": "Back Extensions", "sets": 3, "reps": 12 },
+              { "exercise": "Planks", "sets": 3, "reps": 45 }
+            ]},
+            { "name": "Thursday", "description": "Full Body Conditioning", "template": [
+              { "exercise": "Kettlebell Swings", "sets": 4, "reps": 15 },
+              { "exercise": "Goblet Squat", "sets": 4, "reps": 12 },
+              { "exercise": "Push Press", "sets": 3, "reps": 12 },
+              { "exercise": "Mountain Climbers", "sets": 3, "reps": 30 }
+            ]},
+            { "name": "Friday", "description": "Arms + Chest", "template": [
+              { "exercise": "Incline Dumbbell Press", "sets": 4, "reps": 10 },
+              { "exercise": "Cable Fly", "sets": 3, "reps": 12 },
+              { "exercise": "Bicep Curls", "sets": 4, "reps": 12 },
+              { "exercise": "Tricep Dips", "sets": 3, "reps": 15 }
+            ]},
+            { "name": "Saturday", "description": "Swimming – Conditioning", "template": [
+              { "exercise": "Freestyle Swimming", "sets": 1, "reps": 20 },
+              { "exercise": "Backstroke", "sets": 1, "reps": 15 },
+              { "exercise": "Kickboard Intervals", "sets": 1, "reps": 10 }
+            ]}
+          ]
+        },
+        {
+          "phase": 2,
+          "days": [
+            { "name": "Monday", "description": "Upper Strength", "template": [
+              { "exercise": "Bench Press", "sets": 5, "reps": 8 },
+              { "exercise": "Barbell Row", "sets": 5, "reps": 8 },
+              { "exercise": "Military Press", "sets": 4, "reps": 8 },
+              { "exercise": "Pull-ups", "sets": 3, "reps": 8 }
+            ]},
+            { "name": "Tuesday", "description": "Leg Strength", "template": [
+              { "exercise": "Back Squat", "sets": 5, "reps": 6 },
+              { "exercise": "Romanian Deadlift", "sets": 4, "reps": 8 },
+              { "exercise": "Leg Press", "sets": 4, "reps": 10 },
+              { "exercise": "Calf Raise", "sets": 4, "reps": 15 }
+            ]},
+            { "name": "Wednesday", "description": "Back + Core Strength", "template": [
+              { "exercise": "Deadlift", "sets": 4, "reps": 5 },
+              { "exercise": "Lat Pulldown Heavy", "sets": 4, "reps": 10 },
+              { "exercise": "Weighted Planks", "sets": 3, "reps": 60 }
+            ]},
+            { "name": "Thursday", "description": "Full Body Strength", "template": [
+              { "exercise": "Clean and Press", "sets": 4, "reps": 6 },
+              { "exercise": "Front Squat", "sets": 4, "reps": 8 },
+              { "exercise": "Dips Weighted", "sets": 3, "reps": 8 }
+            ]},
+            { "name": "Friday", "description": "Arms + Chest Strength", "template": [
+              { "exercise": "Incline Barbell Press", "sets": 5, "reps": 6 },
+              { "exercise": "Skull Crushers", "sets": 4, "reps": 10 },
+              { "exercise": "Hammer Curls", "sets": 4, "reps": 10 }
+            ]},
+            { "name": "Saturday", "description": "Swimming – Strength Endurance", "template": [
+              { "exercise": "Freestyle Laps", "sets": 1, "reps": 30 },
+              { "exercise": "Butterfly Kick", "sets": 1, "reps": 20 }
+            ]}
+          ]
+        },
+        {
+          "phase": 3,
+          "days": [
+            { "name": "Monday", "description": "Upper Metabolic Intensity", "template": [
+              { "exercise": "Push-ups Decline", "sets": 4, "reps": 15 },
+              { "exercise": "Pull-ups Fast", "sets": 4, "reps": 10 },
+              { "exercise": "Kettlebell Snatch", "sets": 4, "reps": 12 }
+            ]},
+            { "name": "Tuesday", "description": "Leg Metabolic Circuit", "template": [
+              { "exercise": "Jump Squats", "sets": 4, "reps": 15 },
+              { "exercise": "Walking Lunges", "sets": 4, "reps": 20 },
+              { "exercise": "Leg Press High-Rep", "sets": 3, "reps": 25 }
+            ]},
+            { "name": "Wednesday", "description": "Back Metabolic", "template": [
+              { "exercise": "Row Machine Intervals", "sets": 4, "reps": 500 },
+              { "exercise": "Lat Pulldown Dropset", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Thursday", "description": "Full Body HIIT", "template": [
+              { "exercise": "Burpees", "sets": 3, "reps": 20 },
+              { "exercise": "Thrusters", "sets": 3, "reps": 15 },
+              { "exercise": "Kettlebell Swing Heavy", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Friday", "description": "Arms HIIT", "template": [
+              { "exercise": "Battle Ropes", "sets": 3, "reps": 30 },
+              { "exercise": "Bicep Curl High-Rep", "sets": 3, "reps": 25 },
+              { "exercise": "Tricep Rope Extension", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Saturday", "description": "Swimming – High Intensity", "template": [
+              { "exercise": "Interval Sprints in Pool", "sets": 1, "reps": 20 },
+              { "exercise": "Freestyle Long Set", "sets": 1, "reps": 40 }
+            ]}
+          ]
+        }
+      ]
+    },
+
+    "36-50": {
+      "twelve_week_phases": [
+        {
+          "phase": 1,
+          "days": [
+            { "name": "Monday", "description": "Upper Body (Reduced Impact)", "template": [
+              { "exercise": "Push-ups Modified", "sets": 3, "reps": 12 },
+              { "exercise": "Chest Press Machine", "sets": 3, "reps": 12 },
+              { "exercise": "Seated Row Machine", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Tuesday", "description": "Legs Safe Volume", "template": [
+              { "exercise": "Leg Press", "sets": 3, "reps": 12 },
+              { "exercise": "Split Squats", "sets": 3, "reps": 10 },
+              { "exercise": "Calf Raise", "sets": 3, "reps": 15 }
+            ]},
+            { "name": "Wednesday", "description": "Back + Core", "template": [
+              { "exercise": "Lat Pulldown", "sets": 3, "reps": 12 },
+              { "exercise": "Back Extensions", "sets": 3, "reps": 10 },
+              { "exercise": "Plank", "sets": 3, "reps": 30 }
+            ]},
+            { "name": "Thursday", "description": "Full Body", "template": [
+              { "exercise": "Goblet Squat", "sets": 3, "reps": 12 },
+              { "exercise": "Incline Chest Press Machine", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Friday", "description": "Arms + Chest", "template": [
+              { "exercise": "Dumbbell Curls", "sets": 3, "reps": 12 },
+              { "exercise": "Tricep Pressdown", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Saturday", "description": "Swimming – Joint Friendly", "template": [
+              { "exercise": "Freestyle Easy", "sets": 1, "reps": 20 }
+            ]}
+          ]
+        },
+        {
+          "phase": 2,
+          "days": [
+            { "name": "Monday", "description": "Upper Body Strength", "template": [
+              { "exercise": "Chest Press Machine Heavy", "sets": 4, "reps": 8 },
+              { "exercise": "Row Machine Heavy", "sets": 4, "reps": 8 }
+            ]},
+            { "name": "Tuesday", "description": "Leg Strength", "template": [
+              { "exercise": "Leg Press Heavy", "sets": 4, "reps": 8 },
+              { "exercise": "Romanian Deadlift Dumbbells", "sets": 3, "reps": 10 }
+            ]},
+            { "name": "Wednesday", "description": "Back + Core Strength", "template": [
+              { "exercise": "Lat Pulldown Heavy", "sets": 4, "reps": 10 },
+              { "exercise": "Plank Weighted", "sets": 3, "reps": 45 }
+            ]},
+            { "name": "Thursday", "description": "Full Body Strength", "template": [
+              { "exercise": "Goblet Squat Heavy", "sets": 4, "reps": 10 },
+              { "exercise": "Chest Press Incline", "sets": 4, "reps": 10 }
+            ]},
+            { "name": "Friday", "description": "Arms + Chest", "template": [
+              { "exercise": "EZ Bar Curl", "sets": 3, "reps": 12 },
+              { "exercise": "Tricep Rope", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Saturday", "description": "Swimming – Endurance", "template": [
+              { "exercise": "Freestyle Laps", "sets": 1, "reps": 30 }
+            ]}
+          ]
+        },
+        {
+          "phase": 3,
+          "days": [
+            { "name": "Monday", "description": "Upper Body HIIT Low-Impact", "template": [
+              { "exercise": "Push-ups Modified", "sets": 3, "reps": 15 },
+              { "exercise": "Chest Press Fast", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Tuesday", "description": "Leg HIIT Safe", "template": [
+              { "exercise": "Leg Press High-Rep", "sets": 3, "reps": 20 },
+              { "exercise": "Walking Lunge Slow", "sets": 3, "reps": 15 }
+            ]},
+            { "name": "Wednesday", "description": "Back HIIT", "template": [
+              { "exercise": "Lat Pulldown High-Rep", "sets": 3, "reps": 20 },
+              { "exercise": "Back Extension Slow", "sets": 3, "reps": 15 }
+            ]},
+            { "name": "Thursday", "description": "Full Body HIIT", "template": [
+              { "exercise": "Goblet Squat Fast", "sets": 3, "reps": 20 },
+              { "exercise": "Push Press Light", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Friday", "description": "Arms HIIT", "template": [
+              { "exercise": "Dumbbell Curls Fast", "sets": 3, "reps": 20 },
+              { "exercise": "Tricep Pressdown High Rep", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Saturday", "description": "Swimming – High Intensity", "template": [
+              { "exercise": "Interval Sprints", "sets": 1, "reps": 20 }
+            ]}
+          ]
+        }
+      ]
+    },
+
+    "50+": {
+      "twelve_week_phases": [
+        {
+          "phase": 1,
+          "days": [
+            { "name": "Monday", "description": "Upper Body – Joint Friendly", "template": [
+              { "exercise": "Chest Press Machine", "sets": 3, "reps": 10 },
+              { "exercise": "Row Machine", "sets": 3, "reps": 10 }
+            ]},
+            { "name": "Tuesday", "description": "Legs – Low Impact", "template": [
+              { "exercise": "Leg Press", "sets": 3, "reps": 10 },
+              { "exercise": "Hamstring Curl Machine", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Wednesday", "description": "Back + Core Safe", "template": [
+              { "exercise": "Lat Pulldown Light", "sets": 3, "reps": 12 },
+              { "exercise": "Plank", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Thursday", "description": "Full Body", "template": [
+              { "exercise": "Goblet Squat Light", "sets": 3, "reps": 12 },
+              { "exercise": "Chest Press Machine", "sets": 3, "reps": 10 }
+            ]},
+            { "name": "Friday", "description": "Arms", "template": [
+              { "exercise": "Dumbbell Curl Light", "sets": 3, "reps": 12 },
+              { "exercise": "Tricep Rope", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Saturday", "description": "Swimming – Gentle", "template": [
+              { "exercise": "Freestyle Easy", "sets": 1, "reps": 15 }
+            ]}
+          ]
+        },
+        {
+          "phase": 2,
+          "days": [
+            { "name": "Monday", "description": "Upper Strength (Safe)", "template": [
+              { "exercise": "Chest Press Machine Heavy", "sets": 3, "reps": 8 },
+              { "exercise": "Row Machine Heavy", "sets": 3, "reps": 8 }
+            ]},
+            { "name": "Tuesday", "description": "Leg Strength", "template": [
+              { "exercise": "Leg Press Moderate", "sets": 3, "reps": 10 },
+              { "exercise": "Hamstring Curl", "sets": 3, "reps": 10 }
+            ]},
+            { "name": "Wednesday", "description": "Back + Core Strength", "template": [
+              { "exercise": "Lat Pulldown Moderate", "sets": 3, "reps": 12 },
+              { "exercise": "Plank Weighted Light", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Thursday", "description": "Full Body", "template": [
+              { "exercise": "Goblet Squat Moderate", "sets": 3, "reps": 10 },
+              { "exercise": "Chest Press Machine", "sets": 3, "reps": 10 }
+            ]},
+            { "name": "Friday", "description": "Arms", "template": [
+              { "exercise": "EZ Bar Curl Light", "sets": 3, "reps": 10 },
+              { "exercise": "Tricep Pressdown Moderate", "sets": 3, "reps": 10 }
+            ]},
+            { "name": "Saturday", "description": "Swimming – Endurance", "template": [
+              { "exercise": "Freestyle", "sets": 1, "reps": 20 }
+            ]}
+          ]
+        },
+        {
+          "phase": 3,
+          "days": [
+            { "name": "Monday", "description": "Upper HIIT Low-Impact", "template": [
+              { "exercise": "Chest Press Fast", "sets": 3, "reps": 15 },
+              { "exercise": "Row Machine Fast", "sets": 3, "reps": 15 }
+            ]},
+            { "name": "Tuesday", "description": "Leg HIIT Safe", "template": [
+              { "exercise": "Leg Press Moderate Rep", "sets": 3, "reps": 15 },
+              { "exercise": "Hamstring Curl", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Wednesday", "description": "Back HIIT", "template": [
+              { "exercise": "Lat Pulldown High Rep", "sets": 3, "reps": 15 },
+              { "exercise": "Plank High Rep", "sets": 3, "reps": 30 }
+            ]},
+            { "name": "Thursday", "description": "Full Body HIIT", "template": [
+              { "exercise": "Goblet Squat Fast", "sets": 3, "reps": 15 },
+              { "exercise": "Chest Press Fast", "sets": 3, "reps": 15 }
+            ]},
+            { "name": "Friday", "description": "Arms HIIT", "template": [
+              { "exercise": "Dumbbell Curl Fast", "sets": 3, "reps": 20 },
+              { "exercise": "Tricep Rope Fast", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Saturday", "description": "Swimming – High Intensity (Safe)", "template": [
+              { "exercise": "Freestyle Intervals", "sets": 1, "reps": 20 }
+            ]}
+          ]
+        }
+      ]
+    }
+  },
+
+  "female": {
+    "18-35": {
+      "twelve_week_phases": [
+        {
+          "phase": 1,
+          "days": [
+            { "name": "Monday", "description": "Upper Body Conditioning (Female Safe Back Version)", "template": [
+              { "exercise": "Push-ups", "sets": 3, "reps": 12 },
+              { "exercise": "Chest Press Machine", "sets": 3, "reps": 12 },
+              { "exercise": "Cable Row", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Tuesday", "description": "Lower Body Glute Focus", "template": [
+              { "exercise": "Hip Thrust", "sets": 4, "reps": 12 },
+              { "exercise": "Glute Bridge", "sets": 4, "reps": 15 },
+              { "exercise": "Leg Press", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Wednesday", "description": "Back + Core (Female Safe)", "template": [
+              { "exercise": "Lat Pulldown", "sets": 3, "reps": 12 },
+              { "exercise": "Bird Dog", "sets": 3, "reps": 12 },
+              { "exercise": "Side Plank", "sets": 3, "reps": 30 }
+            ]},
+            { "name": "Thursday", "description": "Full Body Conditioning", "template": [
+              { "exercise": "Kettlebell Swings Light", "sets": 3, "reps": 15 },
+              { "exercise": "Goblet Squat", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Friday", "description": "Booty + Arms", "template": [
+              { "exercise": "Hip Thrust", "sets": 4, "reps": 12 },
+              { "exercise": "Bicep Curls", "sets": 3, "reps": 12 },
+              { "exercise": "Tricep Rope", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Saturday", "description": "Swimming – Conditioning", "template": [
+              { "exercise": "Freestyle", "sets": 1, "reps": 20 }
+            ]}
+          ]
+        },
+        {
+          "phase": 2,
+          "days": [
+            { "name": "Monday", "description": "Upper Strength (Female Safe)", "template": [
+              { "exercise": "Chest Press Machine", "sets": 3, "reps": 10 },
+              { "exercise": "Row Machine", "sets": 3, "reps": 10 }
+            ]},
+            { "name": "Tuesday", "description": "Glute Strength", "template": [
+              { "exercise": "Hip Thrust Heavy", "sets": 4, "reps": 8 },
+              { "exercise": "Leg Press", "sets": 3, "reps": 10 }
+            ]},
+            { "name": "Wednesday", "description": "Back Strength (No Spinal Compression)", "template": [
+              { "exercise": "Lat Pulldown Heavy", "sets": 3, "reps": 10 },
+              { "exercise": "Bird Dog Weighted", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Thursday", "description": "Full Body Strength", "template": [
+              { "exercise": "Goblet Squat Heavy", "sets": 4, "reps": 10 },
+              { "exercise": "Chest Press Incline", "sets": 3, "reps": 10 }
+            ]},
+            { "name": "Friday", "description": "Booty + Arms Strength", "template": [
+              { "exercise": "Hip Thrust Heavy", "sets": 4, "reps": 8 },
+              { "exercise": "Tricep Pressdown", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Saturday", "description": "Swimming – Endurance", "template": [
+              { "exercise": "Freestyle Laps", "sets": 1, "reps": 25 }
+            ]}
+          ]
+        },
+        {
+          "phase": 3,
+          "days": [
+            { "name": "Monday", "description": "Upper HIIT (Female Safe)", "template": [
+              { "exercise": "Push-ups Fast", "sets": 3, "reps": 15 },
+              { "exercise": "Row Machine Fast", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Tuesday", "description": "Glute HIIT", "template": [
+              { "exercise": "Hip Thrust High Rep", "sets": 3, "reps": 20 },
+              { "exercise": "Walking Lunges", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Wednesday", "description": "Back HIIT", "template": [
+              { "exercise": "Lat Pulldown High Rep", "sets": 3, "reps": 20 },
+              { "exercise": "Bird Dog Fast", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Thursday", "description": "Full Body HIIT", "template": [
+              { "exercise": "Kettlebell Swings Moderate", "sets": 3, "reps": 20 },
+              { "exercise": "Goblet Squat Fast", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Friday", "description": "Booty HIIT", "template": [
+              { "exercise": "Hip Thrust Fast", "sets": 3, "reps": 25 },
+              { "exercise": "Lateral Band Walks", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Saturday", "description": "Swimming – High Intensity", "template": [
+              { "exercise": "Freestyle Intense", "sets": 1, "reps": 30 }
+            ]}
+          ]
+        }
+      ]
+    },
+
+    "36-50": {
+      "twelve_week_phases": [
+        {
+          "phase": 1,
+          "days": [
+            { "name": "Monday", "description": "Upper Body Light", "template": [
+              { "exercise": "Chest Press Machine", "sets": 3, "reps": 10 },
+              { "exercise": "Cable Row", "sets": 3, "reps": 10 }
+            ]},
+            { "name": "Tuesday", "description": "Lower Body + Glutes", "template": [
+              { "exercise": "Hip Thrust", "sets": 3, "reps": 12 },
+              { "exercise": "Leg Press", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Wednesday", "description": "Back + Core", "template": [
+              { "exercise": "Lat Pulldown", "sets": 3, "reps": 12 },
+              { "exercise": "Bird Dog", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Thursday", "description": "Full Body", "template": [
+              { "exercise": "Goblet Squat", "sets": 3, "reps": 12 },
+              { "exercise": "Chest Press Machine", "sets": 3, "reps": 10 }
+            ]},
+            { "name": "Friday", "description": "Arms + Glutes", "template": [
+              { "exercise": "Hip Thrust", "sets": 3, "reps": 12 },
+              { "exercise": "Bicep Curl", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Saturday", "description": "Swimming – Easy", "template": [
+              { "exercise": "Freestyle", "sets": 1, "reps": 20 }
+            ]}
+          ]
+        },
+        {
+          "phase": 2,
+          "days": [
+            { "name": "Monday", "description": "Upper Strength", "template": [
+              { "exercise": "Chest Press Machine Heavy", "sets": 3, "reps": 8 },
+              { "exercise": "Row Machine Heavy", "sets": 3, "reps": 8 }
+            ]},
+            { "name": "Tuesday", "description": "Glute Strength", "template": [
+              { "exercise": "Hip Thrust Heavy", "sets": 4, "reps": 8 },
+              { "exercise": "Leg Press Heavy", "sets": 3, "reps": 10 }
+            ]},
+            { "name": "Wednesday", "description": "Back Strength", "template": [
+              { "exercise": "Lat Pulldown Heavy", "sets": 3, "reps": 10 },
+              { "exercise": "Bird Dog Weighted", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Thursday", "description": "Full Body Strength", "template": [
+              { "exercise": "Goblet Squat Heavy", "sets": 4, "reps": 10 },
+              { "exercise": "Incline Chest Machine", "sets": 3, "reps": 10 }
+            ]},
+            { "name": "Friday", "description": "Glutes + Arms", "template": [
+              { "exercise": "Hip Thrust Heavy", "sets": 4, "reps": 8 },
+              { "exercise": "Bicep Curl", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Saturday", "description": "Swimming – Endurance", "template": [
+              { "exercise": "Freestyle Long", "sets": 1, "reps": 30 }
+            ]}
+          ]
+        },
+        {
+          "phase": 3,
+          "days": [
+            { "name": "Monday", "description": "Upper HIIT", "template": [
+              { "exercise": "Chest Press Fast", "sets": 3, "reps": 15 },
+              { "exercise": "Row Machine Fast", "sets": 3, "reps": 15 }
+            ]},
+            { "name": "Tuesday", "description": "Glute HIIT", "template": [
+              { "exercise": "Hip Thrust Fast", "sets": 3, "reps": 20 },
+              { "exercise": "Walking Lunge", "sets": 3, "reps": 15 }
+            ]},
+            { "name": "Wednesday", "description": "Back HIIT", "template": [
+              { "exercise": "Lat Pulldown High Rep", "sets": 3, "reps": 20 },
+              { "exercise": "Bird Dog Fast", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Thursday", "description": "Full Body HIIT", "template": [
+              { "exercise": "Goblet Squat Fast", "sets": 3, "reps": 20 },
+              { "exercise": "Incline Chest Machine Fast", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Friday", "description": "Glute HIIT", "template": [
+              { "exercise": "Hip Thrust High Rep", "sets": 3, "reps": 20 },
+              { "exercise": "Lateral Band Walks", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Saturday", "description": "Swimming – High Intensity", "template": [
+              { "exercise": "Freestyle Fast", "sets": 1, "reps": 30 }
+            ]}
+          ]
+        }
+      ]
+    },
+
+    "50+": {
+      "twelve_week_phases": [
+        {
+          "phase": 1,
+          "days": [
+            { "name": "Monday", "description": "Upper Body Safe", "template": [
+              { "exercise": "Chest Press Machine", "sets": 3, "reps": 10 },
+              { "exercise": "Cable Row", "sets": 3, "reps": 10 }
+            ]},
+            { "name": "Tuesday", "description": "Glutes + Legs Safe", "template": [
+              { "exercise": "Hip Thrust Light", "sets": 3, "reps": 12 },
+              { "exercise": "Leg Press Light", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Wednesday", "description": "Back + Core Safe", "template": [
+              { "exercise": "Lat Pulldown Light", "sets": 3, "reps": 12 },
+              { "exercise": "Bird Dog", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Thursday", "description": "Full Body", "template": [
+              { "exercise": "Goblet Squat Light", "sets": 3, "reps": 12 },
+              { "exercise": "Chest Press Machine", "sets": 3, "reps": 10 }
+            ]},
+            { "name": "Friday", "description": "Arms + Glutes", "template": [
+              { "exercise": "Hip Thrust Light", "sets": 3, "reps": 12 },
+              { "exercise": "Bicep Curl Light", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Saturday", "description": "Swimming – Gentle", "template": [
+              { "exercise": "Freestyle Easy", "sets": 1, "reps": 15 }
+            ]}
+          ]
+        },
+        {
+          "phase": 2,
+          "days": [
+            { "name": "Monday", "description": "Upper Strength Safe", "template": [
+              { "exercise": "Chest Press Machine Moderate", "sets": 3, "reps": 10 },
+              { "exercise": "Row Machine Moderate", "sets": 3, "reps": 10 }
+            ]},
+            { "name": "Tuesday", "description": "Glute Strength Safe", "template": [
+              { "exercise": "Hip Thrust Moderate", "sets": 3, "reps": 10 },
+              { "exercise": "Leg Press Moderate", "sets": 3, "reps": 10 }
+            ]},
+            { "name": "Wednesday", "description": "Back Strength", "template": [
+              { "exercise": "Lat Pulldown Moderate", "sets": 3, "reps": 10 },
+              { "exercise": "Bird Dog Weighted", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Thursday", "description": "Full Body Strength", "template": [
+              { "exercise": "Goblet Squat Moderate", "sets": 3, "reps": 10 },
+              { "exercise": "Chest Press Machine", "sets": 3, "reps": 10 }
+            ]},
+            { "name": "Friday", "description": "Glutes + Arms", "template": [
+              { "exercise": "Hip Thrust Moderate", "sets": 3, "reps": 10 },
+              { "exercise": "Bicep Curl Moderate", "sets": 3, "reps": 12 }
+            ]},
+            { "name": "Saturday", "description": "Swimming – Endurance", "template": [
+              { "exercise": "Freestyle", "sets": 1, "reps": 20 }
+            ]}
+          ]
+        },
+        {
+          "phase": 3,
+          "days": [
+            { "name": "Monday", "description": "Upper HIIT Safe", "template": [
+              { "exercise": "Chest Press Fast", "sets": 3, "reps": 15 },
+              { "exercise": "Row Machine Fast", "sets": 3, "reps": 15 }
+            ]},
+            { "name": "Tuesday", "description": "Glute HIIT Safe", "template": [
+              { "exercise": "Hip Thrust High Rep", "sets": 3, "reps": 20 },
+              { "exercise": "Leg Press High Rep", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Wednesday", "description": "Back HIIT", "template": [
+              { "exercise": "Lat Pulldown High Rep", "sets": 3, "reps": 15 },
+              { "exercise": "Bird Dog Fast", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Thursday", "description": "Full Body HIIT", "template": [
+              { "exercise": "Goblet Squat Fast", "sets": 3, "reps": 15 },
+              { "exercise": "Chest Press Fast", "sets": 3, "reps": 15 }
+            ]},
+            { "name": "Friday", "description": "Glute HIIT", "template": [
+              { "exercise": "Hip Thrust High Rep", "sets": 3, "reps": 20 },
+              { "exercise": "Lateral Band Walks", "sets": 3, "reps": 20 }
+            ]},
+            { "name": "Saturday", "description": "Swimming – High Intensity Safe", "template": [
+              { "exercise": "Freestyle Fast", "sets": 1, "reps": 20 }
+            ]}
+          ]
+        }
+      ]
+    }
+  }
+}
